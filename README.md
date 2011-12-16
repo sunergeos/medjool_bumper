@@ -29,15 +29,15 @@ In your `Rakefile` `require 'medjool_bumper'` and you're done.
   
     $ rake -T
     rake mbump:build     # bump build
-    rake mbump:init      # write initial dated version of 0.yyyymm.dd.0
+    rake mbump:init      # write initial dated version of 0.yyyy.mmdd.0
     rake mbump:major     # bump major
 
     $ rake mbump:init
-    version: 0.201112.15.0
+    version: 0.2011.1215.0
     $ rake mbump:build
-    version: 0.201112.15.1
+    version: 0.2011.1215.1
     $ rake mbump:major
-    version: 1.201112.15.0
+    version: 1.2011.1215.0
 
 You can optionally use `bumper_file 'version.txt'` in your rake file to switch from the default `VERSION` file name.
 Use `bumper_medjool` anywhere you need access to the current version in your rake script.
