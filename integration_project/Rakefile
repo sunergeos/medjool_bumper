@@ -1,0 +1,2 @@
+require 'medjool_bumper'
+bumper_file 'version.txt'
