@@ -21,7 +21,9 @@ installed as well for use on other projects.
 
 Quick start
 -----------
-    $ gem install medjool_bumper
+You can use bundler to install from the Git project:
+
+    $ gem "medjool_bumper", :git => "git://github.com/sunergeos/medjool_bumper.git"
 
 In your `Rakefile` `require 'medjool_bumper'` and you're done.
   
