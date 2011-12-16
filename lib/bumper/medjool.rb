@@ -46,11 +46,11 @@ module Bumper
     end
 
     def get_current_minor
-      Time.now.year.to_s + ("%02d" % Time.now.month)
+      Time.now.year.to_s
     end
 
     def get_current_revision
-      "%02d" % Time.now.day
+      ("%02d" % Time.now.month)+ ("%02d" % Time.now.day)
     end
 
     def version_out_of_date?

@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'bundler'
 require 'rake/testtask'
-require 'medjool_bumper'
 
 begin
   require "bundler"

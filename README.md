@@ -7,8 +7,8 @@ What is it for?
 ---------------
 For the Jetson Project (for Apprisen), we want to use dates to help distinguish our version numbers. We use the following
 versioning format (major, minor, revision, build), but we are swapping out the minor and the revision for the following:
-minor => yyyymm
-revision => dd
+minor => yyyy
+revision => mmdd
 
 The rules are simple:
 -Whenever a major or build number is bumped, we check the date of the current version and update it to the current date.
